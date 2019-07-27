@@ -8,7 +8,7 @@ git clone https://github.com/tsa87/Intuitive-Gesture-Drone-Control.git
 ```
 2. Install the prerequisites
 ```
-pip install Pillow
+pip install pillow
 pip install pandas
 pip install keras
 pip install sklearn
