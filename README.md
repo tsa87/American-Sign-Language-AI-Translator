@@ -15,13 +15,11 @@ pip install sklearn
 pip install opencv-contrib-python
 pip install matplotlib
 ```
-3. Train on the dataset
+3. Train the VGG network on traing dataset
 ```
 python train.py
-
 ```
-4. Run the demo
+4. Run the demo on testing dataset
 ```
-# please make sure 
 python test.py
 ```
