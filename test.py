@@ -18,18 +18,12 @@ labels = LabelBinarizer().fit_transform(labels)
 images = images.astype("float")/255.0
 images = images.reshape(images.shape[0], 28, 28, 1)
 
-model = load_model("./shallownet_weights.hdf5")
+model = load_model("./VGG_weights.hdf5")
 preds = model.predict(images, batch_size=32).argmax(axis=1)
 
 report = classification_report(labels.argmax(axis=1),preds,
     target_names = target_names)
 print(report)
-
-#print(samples.shape)
-#print(samples.dtype)
-#print(samples[0][2])
-
-#print(samples[0])
 
 for i, image in enumerate(images):
     if i is 40:
