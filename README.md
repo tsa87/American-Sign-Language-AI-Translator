@@ -33,7 +33,7 @@ python train.py
 python test.py
 ```
 ### Future Work
-- Combine this network with the [hand tracker](https://github.com/tsa87/Intuitive-Gesture-Drone-Control) to allow real time translation. \
+- Combine this network with the [hand tracker](https://github.com/tsa87/Intuitive-Gesture-Drone-Control) to allow real time translation. 
 - Integrating language modeling and generating Recurrent Neural Network.
 ### Author
 
