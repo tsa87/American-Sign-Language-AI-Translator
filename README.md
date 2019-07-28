@@ -1,5 +1,14 @@
-### ASL-MNIST
+### American Sign Language Translator
 
+Trained on the Sign Language MNIST [dataset](https://www.kaggle.com/datamunge/sign-language-mnist) using a VGG architecture.
+
+### Result
+#### Weighted Precision: 95% 
+#### Weighted Accuracy: 94%
+
+![Imgur](https://i.imgur.com/Eq9GPCC.png?1)
+![Imgur](https://i.imgur.com/mKevYie.png?1) \
+##### The topleft corner (PREDICTION/GROUND TRUTH)
 
 ### Getting Started
 1. Clone the project 
@@ -23,3 +32,4 @@ python train.py
 ```
 python test.py
 ```
+
