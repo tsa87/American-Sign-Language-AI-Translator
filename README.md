@@ -31,4 +31,6 @@ python train.py
 ```
 python test.py
 ```
+### Author
 
+* **Tony Shen** - *Initial work*
