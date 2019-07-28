@@ -7,7 +7,6 @@ Trained on the Sign Language MNIST [dataset](https://www.kaggle.com/datamunge/si
 #### Weighted Accuracy: 94%
 
 ![Imgur](https://i.imgur.com/Eq9GPCC.png?1)
-![Imgur](https://i.imgur.com/mKevYie.png?1)
 ##### The topleft corner (PREDICTION/GROUND TRUTH)
 
 ### Getting Started
