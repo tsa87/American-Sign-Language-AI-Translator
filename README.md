@@ -1,4 +1,4 @@
-### American Sign Language Translator
+## American Sign Language Translator
 
 Trained on the Sign Language MNIST [dataset](https://www.kaggle.com/datamunge/sign-language-mnist) using a VGG architecture.
 
